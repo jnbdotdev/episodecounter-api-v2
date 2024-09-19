@@ -1,5 +1,6 @@
 package com.jnb.episodecounter.api;
 
+import com.jnb.episodecounter.api.models.ContentModel;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
