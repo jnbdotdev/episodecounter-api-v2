@@ -34,6 +34,7 @@ public class ContentController {
         return ResponseEntity.status(HttpStatus.CREATED).body(contentRepository.save(contentModel));
     }
 
+    @CrossOrigin(origins = "http://localhost:5500")
     @GetMapping("/contents")
     public ResponseEntity<List<ContentModel>> getCatalog() {
         List<ContentModel> catalogList = contentRepository.findAll();
