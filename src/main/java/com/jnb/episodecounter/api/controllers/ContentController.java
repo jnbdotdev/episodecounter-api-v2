@@ -21,6 +21,7 @@ import java.util.UUID;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
+@CrossOrigin(origins = "http://localhost:5500")
 @RestController
 public class ContentController {
 
@@ -34,7 +35,6 @@ public class ContentController {
         return ResponseEntity.status(HttpStatus.CREATED).body(contentRepository.save(contentModel));
     }
 
-    @CrossOrigin(origins = "http://localhost:5500")
     @GetMapping("/contents")
     public ResponseEntity<List<ContentModel>> getCatalog() {
         List<ContentModel> catalogList = contentRepository.findAll();

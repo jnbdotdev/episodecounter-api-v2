@@ -19,6 +19,7 @@ public class ContentModel extends RepresentationModel<ContentModel> implements S
     private String name;
     private int content_group;
     private int content_unit;
+    private String platform;
     private int releaseDay;
     private boolean releasing;
     private int personalStatus;
@@ -50,6 +51,13 @@ public class ContentModel extends RepresentationModel<ContentModel> implements S
     }
     public void setContent_unit(int content_unit) {
         this.content_unit = content_unit;
+    }
+
+    public String getPlatform() {
+        return platform;
+    }
+    public void setPlatform(String platform) {
+        this.platform = platform;
     }
 
     public int getReleaseDay() {
