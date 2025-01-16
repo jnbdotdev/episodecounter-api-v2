@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/static/v1?label=Version&labelColor=ffc66c&message=2.0.0&color=F6F5F2&style=for-the-badge&logo=vonage"/>
   <img src="https://img.shields.io/static/v1?label=License&labelColor=ffc66c&message=MIT&color=F6F5F2&style=for-the-badge&logo=perforce"/>
 </div>
-<br>
+<br> 
 <div class="badges" align="left">
   <h3>You're reading in:</h3>
   <a href="https://github.com/jnbdotdev/episodecounter-api-v2/blob/master/README.md" target="_blank"><img src="https://img.shields.io/badge/English-ffc66c?style=for-the-badge"/></a>
